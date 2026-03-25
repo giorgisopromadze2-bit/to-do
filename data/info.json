@@ -1,0 +1,47 @@
+{
+  "tasks": [
+    {
+      "description": "გასვლა",
+      "category": "Personal",
+      "date": "2026-03-26",
+      "completed": true,
+      "id": "r99Or8N4ZHo"
+    },
+    {
+      "description": "lhdid",
+      "category": "Work",
+      "date": "2026-04-04",
+      "completed": true,
+      "id": "PTKU1FJsHdI"
+    },
+    {
+      "description": "wavidet viaret mta shemoviarot yvelani gavide garet gvaideb kgdf ljhbd skjbbdld zjyjvsbdlkcgz dhzysdbz zdufuygd dsdusydsef uydgguyasadgfksg difus fskfhgsydfgsdfhb sfygsdb fshjgsjydgcbsdh jcjxbvx xjgdf sdyfgsf bdsfjsyfgd ",
+      "category": "Work",
+      "date": "2026-03-23",
+      "completed": false,
+      "id": "lxNgFleKoFM"
+    },
+    {
+      "description": "aaskdkujbasd",
+      "category": "Personal",
+      "date": "2026-03-19",
+      "completed": false,
+      "id": "Q99RO3gHdgo"
+    },
+    {
+      "description": "Sdafsghdfjg",
+      "category": "Study",
+      "date": "2026-03-23",
+      "completed": true,
+      "id": "HmxALbZixkM"
+    },
+    {
+      "description": "ასბბკჯნ",
+      "category": "Personal",
+      "date": "2026-03-26",
+      "completed": false,
+      "id": "G76j-ZL6DAk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
