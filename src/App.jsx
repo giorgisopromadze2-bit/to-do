@@ -37,6 +37,7 @@ function App() {
         <main>
           <AddTask setTasks = {setTasks} />
           <Routes>
+            <Route path="/" element={<Navigate to="/alltask/all" replace />} />
             <Route path="/:category/:filter" element={
               <TaskPage 
               tasks = {tasks} 
