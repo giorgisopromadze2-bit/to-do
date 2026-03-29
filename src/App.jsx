@@ -19,14 +19,15 @@ function App() {
   }
 
   const counts = tasks.reduce((acc, task) => {
-    acc.all = (acc.all || 0) + 1;
-    if(!task.completed) acc.active = (acc.active || 0) + 1;
-    if(task.completed) acc.completed = (acc.completed || 0) + 1;
-    const category = task.category.toLowerCase();
-    acc[category] = (acc[category] || 0) + 1;
+    acc.all++;
+    if(task.completed)acc.completed++;
+    else acc.active++;
+    if(task.category === 'Work')acc.work++;
+    else if (task.category === 'Personal')acc.personal++;
+    else if(task.category === 'Study')acc.study++;
     return acc;
-  }, {});
-
+  }, { all: 0, active: 0, completed: 0, work: 0, personal: 0, study: 0});
+ 
 
   return (
     <>
