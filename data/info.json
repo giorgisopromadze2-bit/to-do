@@ -25,14 +25,14 @@
       "description": "Sdafsghdfjg",
       "category": "Study",
       "date": "2026-03-23",
-      "completed": true,
+      "completed": false,
       "id": "HmxALbZixkM"
     },
     {
       "description": "ასბბკჯნ",
       "category": "Personal",
       "date": "2026-03-26",
-      "completed": false,
+      "completed": true,
       "id": "G76j-ZL6DAk"
     },
     {

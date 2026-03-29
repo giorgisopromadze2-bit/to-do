@@ -22,7 +22,8 @@ function App() {
     acc.all = (acc.all || 0) + 1;
     if(!task.completed) acc.active = (acc.active || 0) + 1;
     if(task.completed) acc.completed = (acc.completed || 0) + 1;
-    acc[task.category] = (acc[task.category] || 0) + 1;
+    const category = task.category.toLowerCase();
+    acc[category] = (acc[category] || 0) + 1;
     return acc;
   }, {});
 
