@@ -18,15 +18,14 @@ function App() {
     return <h2>{error}</h2>
   }
 
-  const counts = {
-    all: tasks.length,
-    active: tasks.filter(t => !t.completed).length,
-    completed: tasks.filter(t => t.completed).length,
+  const counts = tasks.reduce((acc, task) => {
+    acc.all = (acc.all || 0) + 1;
+    if(!task.completed) acc.active = (acc.active || 0) + 1;
+    if(task.completed) acc.completed = (acc.completed || 0) + 1;
+    acc[task.category] = (acc[task.category] || 0) + 1;
+    return acc;
+  }, {});
 
-    work: tasks.filter(t => t.category === 'Work').length,
-    personal: tasks.filter(t => t.category === 'Personal').length,
-    study: tasks.filter(t => t.category === 'Study').length,
-  }
 
   return (
     <>
