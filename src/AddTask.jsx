@@ -5,7 +5,6 @@ import "react-datepicker/dist/react-datepicker.css";
 const AddTask = ({setTasks}) => {
 
     const [loading, setLoading] = useState(false);
-
     const [description, setDescription] = useState('');
     const [activeTab, setActiveTab] = useState(1);
     const [date, setDate] = useState(new Date());
